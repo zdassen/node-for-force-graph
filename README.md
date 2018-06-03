@@ -65,3 +65,5 @@ let links = BaseNode.toLinks();
 let svgId = "svgArea";
 let force = new MyForce(svgId, manyNodes, links);
 ```
+
+![long-chained-nodes](https://github.com/zdassen/node-for-force-graph/blob/images/long-chained-graph.JPG)
