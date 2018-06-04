@@ -5,12 +5,12 @@ JavaScript node class for D3.js force graph
 ```JavaScript
 // create nodes
 // Array [0, 1] is irrelevant to node ids
-let [n1, n2] = [0, 1].map(n => new BaseNode());
-n1.id;    // 0
-n2.id;    // 1
+let [n0, n1] = [0, 1].map(n => new BaseNode());
+n0.id;    // 0
+n1.id;    // 1
 
 // connect n1 to n2 ( id 0 → id 1 )
-n1.to(n2);
+n0.to(n1);
 
 // get nodes data for D3.js force-layout graph
 let nodes = BaseNode.createdNodes;
