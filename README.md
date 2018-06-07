@@ -9,7 +9,7 @@ let [n0, n1] = [0, 1].map(n => new BaseNode());
 n0.id;    // 0
 n1.id;    // 1
 
-// connect n1 to n2 ( id 0 → id 1 )
+// connect n0 to n1 ( id 0 → id 1 )
 n0.to(n1);
 
 // get nodes data for D3.js force-layout graph
